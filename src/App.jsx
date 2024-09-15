@@ -1,5 +1,6 @@
 import { Home } from "./components/Home";
 import { Routes, Route } from "react-router-dom";
+import { QRGenerado } from "./components/QRGenerado";
 
 const App = () => {
     return (
@@ -7,7 +8,7 @@ const App = () => {
 
             <Routes>
                 <Route path="/" element={<Home />} />
-
+                <Route path="/qr" element={<QRGenerado />} />
             </Routes>
 
         </section>
